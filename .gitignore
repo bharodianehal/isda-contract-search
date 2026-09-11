@@ -15,3 +15,6 @@ app/config.json
 
 # OS / editor
 .DS_Store
+
+# Local session context with real coordinates — never commit
+CLAUDE.md
