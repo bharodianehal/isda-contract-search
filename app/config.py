@@ -6,7 +6,7 @@ import os
 _HERE = os.path.dirname(__file__)
 
 _defaults = {
-    "warehouse_id": "78e7294c42f67d58",
+    "warehouse_id": "your-sql-warehouse-id",
     "catalog": "isda_search",
     "schema": "isda",
     "documents_table": "isda_search.isda.documents",

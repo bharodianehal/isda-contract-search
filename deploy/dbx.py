@@ -38,11 +38,11 @@ def cfg(key, default=""):
 
 
 # --- centralized settings (config.env, env-overridable) ---------------------
-PROFILE = cfg("DBX_PROFILE", "sa-ccr")
+PROFILE = cfg("DBX_PROFILE", "your-cli-profile")
 HOST = cfg("DBX_HOST", "")
-WAREHOUSE_ID = cfg("DBX_WAREHOUSE_ID", "78e7294c42f67d58")
+WAREHOUSE_ID = cfg("DBX_WAREHOUSE_ID", "your-sql-warehouse-id")
 PREF_CATALOG = cfg("ISDA_CATALOG", "isda_search")
-FALLBACK_CATALOG = cfg("ISDA_FALLBACK_CATALOG", "serverless_stable_pdu5ct_catalog")
+FALLBACK_CATALOG = cfg("ISDA_FALLBACK_CATALOG", "your-catalog")
 SCHEMA = cfg("ISDA_SCHEMA", "isda")
 VOLUME = cfg("ISDA_VOLUME", "contracts")
 VS_ENDPOINT = cfg("VS_ENDPOINT", "isda-search-endpoint")

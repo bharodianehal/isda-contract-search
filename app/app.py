@@ -1027,7 +1027,7 @@ digraph Tech {
     label="Application tier  -  Databricks App (managed compute)"; fontsize=12;
     style="rounded,filled"; fillcolor="#f3f9f3"; color="#9fca9f";
     streamlit [label="Streamlit app  (app.py)\nserved on :8000", fillcolor="#ffffff"];
-    sp        [label="App Service Principal\naa24ad9f-...-883c9\n(WorkspaceClient OAuth)", shape=component, fillcolor="#fff8e1"];
+    sp        [label="App Service Principal\n(app service principal)\n(WorkspaceClient OAuth)", shape=component, fillcolor="#fff8e1"];
     streamlit -> sp [label="authenticates as", style=dashed];
   }
 
@@ -1041,7 +1041,7 @@ digraph Tech {
 
   subgraph cluster_compute {
     label="Compute tier"; fontsize=12; style="rounded,filled"; fillcolor="#fff4ec"; color="#e0b58a";
-    wh     [label="Serverless SQL Warehouse\n78e7294c42f67d58\n(SQL + ai_query + audit)", shape=cylinder, fillcolor="#ffffff"];
+    wh     [label="Serverless SQL Warehouse\nyour-sql-warehouse-id\n(SQL + ai_query + audit)", shape=cylinder, fillcolor="#ffffff"];
     vsep   [label="Vector Search Endpoint\nisda-search-endpoint (STANDARD)\n(Method A semantic / hybrid)", fillcolor="#ffffff"];
     embed  [label="Model Serving\ndatabricks-gte-large-en\n(embeddings)", fillcolor="#ffffff"];
     llm    [label="Model Serving\ndatabricks-claude-sonnet-4-6\n(Extract + Ask via ai_query)", fillcolor="#fff8e1"];
@@ -1049,7 +1049,7 @@ digraph Tech {
   }
 
   subgraph cluster_uc {
-    label="Data & governance tier  -  Unity Catalog: serverless_stable_pdu5ct_catalog.isda_search"; fontsize=12;
+    label="Data & governance tier  -  Unity Catalog: your-catalog.isda_search"; fontsize=12;
     style="rounded,filled"; fillcolor="#eef2f7"; color="#a9b6c8";
     vol     [label="Volume: contracts\n20 PDFs (+ staging)", shape=folder, fillcolor="#ffffff"];
     tdocs   [label="TABLE documents", shape=cylinder, fillcolor="#ffffff"];
@@ -1191,7 +1191,7 @@ Catalog** — no external services:
         {"Object": "TABLE eligible_collateral", "Grant": "SELECT"},
         {"Object": "VOLUME contracts", "Grant": "READ VOLUME"},
         {"Object": "Vector Search index (document_chunks_index)", "Grant": "SELECT"},
-        {"Object": "SQL Warehouse (78e7294c42f67d58)", "Grant": "CAN_USE"},
+        {"Object": "SQL Warehouse (your-sql-warehouse-id)", "Grant": "CAN_USE"},
         {"Object": "Vector Search endpoint (isda-search-endpoint)", "Grant": "CAN_USE"},
         {"Object": "Full-text index (document_chunks_fts_index) — Method B",
          "Grant": "SELECT"},

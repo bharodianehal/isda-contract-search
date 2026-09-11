@@ -8,6 +8,42 @@ and grounded Q&A — all governed by Unity Catalog, with a full audit trail.
 See **[plan/SEARCH_IMPLEMENTATION_PLAN.md](plan/SEARCH_IMPLEMENTATION_PLAN.md)**
 and **[plan/ENHANCEMENT_PLAN.md](plan/ENHANCEMENT_PLAN.md)** for the design.
 
+---
+
+> **Built on Databricks.** This project runs entirely on the Databricks
+> Lakehouse (Unity Catalog volumes + Delta tables, Mosaic AI Vector Search,
+> Foundation Model APIs via `ai_query`, and Databricks Apps). To run it you need
+> **your own Databricks workspace** with serverless compute and Foundation Model
+> API access. You configure your own catalog, schema, volume, SQL warehouse, and
+> Vector Search endpoints — see [`config.env`](config.env).
+
+---
+
+## Disclaimer
+
+This software is provided **for educational and research purposes only**. It is
+**not legal advice** and is **not a substitute for qualified legal counsel**.
+Outputs (search results, extracted clauses, CDM records, and answers) are
+produced by probabilistic language models and deterministic heuristics and may
+be inaccurate, incomplete, or misleading. The software is provided **"AS IS",
+WITHOUT WARRANTY OF ANY KIND**, express or implied, including but not limited to
+merchantability, fitness for a particular purpose, accuracy, or non-infringement.
+
+**No party associated with this code accepts any liability** for any loss,
+damage, claim, or cost — direct, indirect, incidental, consequential, or
+otherwise — arising from the use of, or reliance on, this software or its
+output. By using, copying, modifying, or distributing this software you agree
+that any decision based on its output is made solely at your own risk.
+
+**Scope & data.** This project targets **ISDA 2002 Master Agreements and Credit
+Support Annexes**; its clause schema and prompts assume those conventions. The
+**20 agreements in `contracts/` are entirely synthetic sample data** — fictional
+parties, terms, and figures generated for demonstration — **not** real executed
+agreements. Do not treat any output as representative of any real institution or
+transaction. Validate independently before any production use.
+
+---
+
 ## The app (7 tabs)
 - **📊 Portfolio** — analytics with click-to-filter charts + agreements table (open/download a doc)
 - **📚 Documents** — the 20-agreement library (open in-app page preview / download)
