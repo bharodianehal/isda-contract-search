@@ -1,0 +1,608 @@
+[
+  {
+    "doc_id": "CP01",
+    "file_name": "CP01_State_Street_ISDA_2002_Master_Agreement.pdf",
+    "counterparty": "State Street Bank and Trust Company",
+    "counterparty_short": "State Street",
+    "counterparty_type": "Custodian Bank",
+    "jurisdiction": "Massachusetts, United States",
+    "lei": "571474TGEMMWANRLN572",
+    "governing_law": "New York",
+    "base_currency": "USD",
+    "threshold": "USD 10,000,000",
+    "minimum_transfer_amount": "USD 250,000",
+    "independent_amount": "USD 5,000,000",
+    "cross_default_threshold": "USD 50,000,000",
+    "automatic_early_termination": false,
+    "csa_type": "New York Law VM CSA",
+    "products": [
+      "Interest Rate Swaps",
+      "FX Forwards",
+      "Cross-Currency Swaps"
+    ],
+    "specified_entity": "any Affiliate",
+    "additional_termination_events": [
+      "Ratings Downgrade below BBB- (S&P) or Baa3 (Moody's)"
+    ],
+    "effective_date": "2019-03-15",
+    "agreement_type": "ISDA 2002 Master Agreement",
+    "bytes": 14483
+  },
+  {
+    "doc_id": "CP02",
+    "file_name": "CP02_BNY_Mellon_ISDA_2002_Master_Agreement.pdf",
+    "counterparty": "The Bank of New York Mellon",
+    "counterparty_short": "BNY Mellon",
+    "counterparty_type": "Custodian Bank",
+    "jurisdiction": "New York, United States",
+    "lei": "HPFHU0OQ28E4N0NFVK49",
+    "governing_law": "New York",
+    "base_currency": "USD",
+    "threshold": "USD 15,000,000",
+    "minimum_transfer_amount": "USD 500,000",
+    "independent_amount": "None",
+    "cross_default_threshold": "USD 75,000,000",
+    "automatic_early_termination": false,
+    "csa_type": "New York Law VM CSA",
+    "products": [
+      "Interest Rate Swaps",
+      "Repo Transactions",
+      "Securities Lending"
+    ],
+    "specified_entity": "any Affiliate",
+    "additional_termination_events": [
+      "Net Asset Value Decline of 20% over any calendar month"
+    ],
+    "effective_date": "2018-07-01",
+    "agreement_type": "ISDA 2002 Master Agreement",
+    "bytes": 13922
+  },
+  {
+    "doc_id": "CP03",
+    "file_name": "CP03_Goldman_Sachs_ISDA_2002_Master_Agreement.pdf",
+    "counterparty": "Goldman Sachs International",
+    "counterparty_short": "Goldman Sachs",
+    "counterparty_type": "Dealer",
+    "jurisdiction": "England and Wales",
+    "lei": "W22LROWP2IHZNBB6K528",
+    "governing_law": "English",
+    "base_currency": "EUR",
+    "threshold": "EUR 20,000,000",
+    "minimum_transfer_amount": "EUR 500,000",
+    "independent_amount": "EUR 10,000,000",
+    "cross_default_threshold": "EUR 100,000,000",
+    "automatic_early_termination": true,
+    "csa_type": "English Law VM CSA (Transfer - Title Transfer)",
+    "products": [
+      "Interest Rate Swaps",
+      "Credit Default Swaps",
+      "Equity Swaps",
+      "FX Options",
+      "Commodity Swaps"
+    ],
+    "specified_entity": "Goldman Sachs Group, Inc.",
+    "additional_termination_events": [
+      "Key Person Event",
+      "Ratings Downgrade below A- (S&P)"
+    ],
+    "effective_date": "2020-01-20",
+    "agreement_type": "ISDA 2002 Master Agreement",
+    "bytes": 14555
+  },
+  {
+    "doc_id": "CP04",
+    "file_name": "CP04_Morgan_Stanley_ISDA_2002_Master_Agreement.pdf",
+    "counterparty": "Morgan Stanley & Co. International plc",
+    "counterparty_short": "Morgan Stanley",
+    "counterparty_type": "Dealer",
+    "jurisdiction": "England and Wales",
+    "lei": "4PQUHN3JPFGFNF3BB653",
+    "governing_law": "English",
+    "base_currency": "USD",
+    "threshold": "USD 25,000,000",
+    "minimum_transfer_amount": "USD 500,000",
+    "independent_amount": "USD 15,000,000",
+    "cross_default_threshold": "USD 100,000,000",
+    "automatic_early_termination": true,
+    "csa_type": "English Law VM CSA (Transfer - Title Transfer)",
+    "products": [
+      "Interest Rate Swaps",
+      "Credit Default Swaps",
+      "Equity Swaps",
+      "Total Return Swaps",
+      "FX Forwards"
+    ],
+    "specified_entity": "Morgan Stanley (parent)",
+    "additional_termination_events": [
+      "Ratings Downgrade below BBB (S&P)",
+      "Illegality of Specified Transaction"
+    ],
+    "effective_date": "2019-11-05",
+    "agreement_type": "ISDA 2002 Master Agreement",
+    "bytes": 14620
+  },
+  {
+    "doc_id": "CP05",
+    "file_name": "CP05_JPMorgan_ISDA_2002_Master_Agreement.pdf",
+    "counterparty": "JPMorgan Chase Bank, National Association",
+    "counterparty_short": "JPMorgan",
+    "counterparty_type": "Dealer",
+    "jurisdiction": "New York, United States",
+    "lei": "7H6GLXDRUGQFU57RNE97",
+    "governing_law": "New York",
+    "base_currency": "USD",
+    "threshold": "USD 30,000,000",
+    "minimum_transfer_amount": "USD 1,000,000",
+    "independent_amount": "None",
+    "cross_default_threshold": "USD 150,000,000",
+    "automatic_early_termination": false,
+    "csa_type": "New York Law VM CSA",
+    "products": [
+      "Interest Rate Swaps",
+      "FX Forwards",
+      "Cross-Currency Swaps",
+      "Commodity Swaps",
+      "Credit Default Swaps"
+    ],
+    "specified_entity": "JPMorgan Chase & Co.",
+    "additional_termination_events": [
+      "Ratings Downgrade below A3 (Moody's)"
+    ],
+    "effective_date": "2017-05-12",
+    "agreement_type": "ISDA 2002 Master Agreement",
+    "bytes": 13968
+  },
+  {
+    "doc_id": "CP06",
+    "file_name": "CP06_Citibank_ISDA_2002_Master_Agreement.pdf",
+    "counterparty": "Citibank, N.A.",
+    "counterparty_short": "Citibank",
+    "counterparty_type": "Dealer",
+    "jurisdiction": "New York, United States",
+    "lei": "E57ODZWZ7FF32TWEFA76",
+    "governing_law": "New York",
+    "base_currency": "USD",
+    "threshold": "USD 20,000,000",
+    "minimum_transfer_amount": "USD 500,000",
+    "independent_amount": "USD 8,000,000",
+    "cross_default_threshold": "USD 100,000,000",
+    "automatic_early_termination": false,
+    "csa_type": "New York Law VM CSA",
+    "products": [
+      "Interest Rate Swaps",
+      "FX Options",
+      "Emerging Markets Swaps"
+    ],
+    "specified_entity": "Citigroup Inc.",
+    "additional_termination_events": [
+      "Ratings Downgrade below BBB- (S&P)"
+    ],
+    "effective_date": "2018-02-28",
+    "agreement_type": "ISDA 2002 Master Agreement",
+    "bytes": 13872
+  },
+  {
+    "doc_id": "CP07",
+    "file_name": "CP07_Bank_of_America_ISDA_2002_Master_Agreement.pdf",
+    "counterparty": "Bank of America, N.A.",
+    "counterparty_short": "Bank of America",
+    "counterparty_type": "Dealer",
+    "jurisdiction": "North Carolina, United States",
+    "lei": "B4TYDEB6GKMZO031MB27",
+    "governing_law": "New York",
+    "base_currency": "USD",
+    "threshold": "USD 25,000,000",
+    "minimum_transfer_amount": "USD 500,000",
+    "independent_amount": "None",
+    "cross_default_threshold": "USD 125,000,000",
+    "automatic_early_termination": false,
+    "csa_type": "New York Law VM CSA",
+    "products": [
+      "Interest Rate Swaps",
+      "FX Forwards",
+      "Municipal Swaps"
+    ],
+    "specified_entity": "Bank of America Corporation",
+    "additional_termination_events": [
+      "Ratings Downgrade below Baa2 (Moody's)"
+    ],
+    "effective_date": "2019-06-18",
+    "agreement_type": "ISDA 2002 Master Agreement",
+    "bytes": 13935
+  },
+  {
+    "doc_id": "CP08",
+    "file_name": "CP08_Wells_Fargo_ISDA_2002_Master_Agreement.pdf",
+    "counterparty": "Wells Fargo Bank, N.A.",
+    "counterparty_short": "Wells Fargo",
+    "counterparty_type": "Dealer",
+    "jurisdiction": "South Dakota, United States",
+    "lei": "KB1H1DSPRFMYMCUFXT09",
+    "governing_law": "New York",
+    "base_currency": "USD",
+    "threshold": "USD 15,000,000",
+    "minimum_transfer_amount": "USD 250,000",
+    "independent_amount": "None",
+    "cross_default_threshold": "USD 75,000,000",
+    "automatic_early_termination": false,
+    "csa_type": "New York Law VM CSA",
+    "products": [
+      "Interest Rate Swaps",
+      "FX Forwards"
+    ],
+    "specified_entity": "Wells Fargo & Company",
+    "additional_termination_events": [
+      "Ratings Downgrade below BBB (S&P)"
+    ],
+    "effective_date": "2020-09-30",
+    "agreement_type": "ISDA 2002 Master Agreement",
+    "bytes": 13942
+  },
+  {
+    "doc_id": "CP09",
+    "file_name": "CP09_Deutsche_Bank_ISDA_2002_Master_Agreement.pdf",
+    "counterparty": "Deutsche Bank AG",
+    "counterparty_short": "Deutsche Bank",
+    "counterparty_type": "Dealer",
+    "jurisdiction": "Federal Republic of Germany",
+    "lei": "7LTWFZYICNSX8D621K86",
+    "governing_law": "English",
+    "base_currency": "EUR",
+    "threshold": "EUR 15,000,000",
+    "minimum_transfer_amount": "EUR 500,000",
+    "independent_amount": "EUR 12,000,000",
+    "cross_default_threshold": "EUR 100,000,000",
+    "automatic_early_termination": true,
+    "csa_type": "English Law VM CSA (Transfer - Title Transfer)",
+    "products": [
+      "Interest Rate Swaps",
+      "Credit Default Swaps",
+      "FX Options",
+      "Structured Notes"
+    ],
+    "specified_entity": "any Affiliate",
+    "additional_termination_events": [
+      "Ratings Downgrade below BBB- (S&P)",
+      "Bail-in / Resolution Event"
+    ],
+    "effective_date": "2018-04-10",
+    "agreement_type": "ISDA 2002 Master Agreement",
+    "bytes": 14558
+  },
+  {
+    "doc_id": "CP10",
+    "file_name": "CP10_Barclays_ISDA_2002_Master_Agreement.pdf",
+    "counterparty": "Barclays Bank PLC",
+    "counterparty_short": "Barclays",
+    "counterparty_type": "Dealer",
+    "jurisdiction": "England and Wales",
+    "lei": "G5GSEF7VJP5I7OUK5573",
+    "governing_law": "English",
+    "base_currency": "GBP",
+    "threshold": "GBP 10,000,000",
+    "minimum_transfer_amount": "GBP 250,000",
+    "independent_amount": "GBP 5,000,000",
+    "cross_default_threshold": "GBP 75,000,000",
+    "automatic_early_termination": true,
+    "csa_type": "English Law VM CSA (Transfer - Title Transfer)",
+    "products": [
+      "Interest Rate Swaps",
+      "Inflation Swaps",
+      "Credit Default Swaps",
+      "Equity Options"
+    ],
+    "specified_entity": "Barclays PLC",
+    "additional_termination_events": [
+      "Ratings Downgrade below A- (S&P)",
+      "Bail-in / Resolution Event"
+    ],
+    "effective_date": "2019-08-22",
+    "agreement_type": "ISDA 2002 Master Agreement",
+    "bytes": 14450
+  },
+  {
+    "doc_id": "CP11",
+    "file_name": "CP11_BNP_Paribas_ISDA_2002_Master_Agreement.pdf",
+    "counterparty": "BNP Paribas S.A.",
+    "counterparty_short": "BNP Paribas",
+    "counterparty_type": "Dealer",
+    "jurisdiction": "French Republic",
+    "lei": "R0MUWSFPU8MPRO8K5P83",
+    "governing_law": "English",
+    "base_currency": "EUR",
+    "threshold": "EUR 18,000,000",
+    "minimum_transfer_amount": "EUR 500,000",
+    "independent_amount": "EUR 9,000,000",
+    "cross_default_threshold": "EUR 90,000,000",
+    "automatic_early_termination": true,
+    "csa_type": "English Law VM CSA (Transfer - Title Transfer)",
+    "products": [
+      "Interest Rate Swaps",
+      "FX Forwards",
+      "Commodity Swaps",
+      "Credit Default Swaps"
+    ],
+    "specified_entity": "any Affiliate",
+    "additional_termination_events": [
+      "Ratings Downgrade below BBB (S&P)",
+      "Bail-in / Resolution Event"
+    ],
+    "effective_date": "2020-03-11",
+    "agreement_type": "ISDA 2002 Master Agreement",
+    "bytes": 14504
+  },
+  {
+    "doc_id": "CP12",
+    "file_name": "CP12_Credit_Suisse_ISDA_2002_Master_Agreement.pdf",
+    "counterparty": "Credit Suisse International",
+    "counterparty_short": "Credit Suisse",
+    "counterparty_type": "Dealer",
+    "jurisdiction": "England and Wales",
+    "lei": "E58DKGMJYYYJLN8C3868",
+    "governing_law": "English",
+    "base_currency": "CHF",
+    "threshold": "CHF 12,000,000",
+    "minimum_transfer_amount": "CHF 250,000",
+    "independent_amount": "CHF 6,000,000",
+    "cross_default_threshold": "CHF 60,000,000",
+    "automatic_early_termination": true,
+    "csa_type": "English Law VM CSA (Transfer - Title Transfer)",
+    "products": [
+      "Interest Rate Swaps",
+      "Structured Notes",
+      "Equity Swaps"
+    ],
+    "specified_entity": "Credit Suisse Group AG",
+    "additional_termination_events": [
+      "Ratings Downgrade below BBB- (S&P)",
+      "Merger Without Assumption",
+      "Bail-in / Resolution Event"
+    ],
+    "effective_date": "2017-10-03",
+    "agreement_type": "ISDA 2002 Master Agreement",
+    "bytes": 14548
+  },
+  {
+    "doc_id": "CP13",
+    "file_name": "CP13_UBS_ISDA_2002_Master_Agreement.pdf",
+    "counterparty": "UBS AG",
+    "counterparty_short": "UBS",
+    "counterparty_type": "Dealer",
+    "jurisdiction": "Switzerland",
+    "lei": "BFM8T61CT2L1QCEMIK50",
+    "governing_law": "English",
+    "base_currency": "CHF",
+    "threshold": "CHF 15,000,000",
+    "minimum_transfer_amount": "CHF 250,000",
+    "independent_amount": "CHF 7,500,000",
+    "cross_default_threshold": "CHF 75,000,000",
+    "automatic_early_termination": true,
+    "csa_type": "English Law VM CSA (Transfer - Title Transfer)",
+    "products": [
+      "Interest Rate Swaps",
+      "FX Options",
+      "Equity Swaps",
+      "Structured Notes"
+    ],
+    "specified_entity": "UBS Group AG",
+    "additional_termination_events": [
+      "Ratings Downgrade below A- (S&P)",
+      "Bail-in / Resolution Event"
+    ],
+    "effective_date": "2018-12-14",
+    "agreement_type": "ISDA 2002 Master Agreement",
+    "bytes": 13929
+  },
+  {
+    "doc_id": "CP14",
+    "file_name": "CP14_HSBC_ISDA_2002_Master_Agreement.pdf",
+    "counterparty": "HSBC Bank plc",
+    "counterparty_short": "HSBC",
+    "counterparty_type": "Dealer",
+    "jurisdiction": "England and Wales",
+    "lei": "MP6I5ZYZBEU3UXPYFY54",
+    "governing_law": "English",
+    "base_currency": "GBP",
+    "threshold": "GBP 12,000,000",
+    "minimum_transfer_amount": "GBP 250,000",
+    "independent_amount": "None",
+    "cross_default_threshold": "GBP 80,000,000",
+    "automatic_early_termination": true,
+    "csa_type": "English Law VM CSA (Transfer - Title Transfer)",
+    "products": [
+      "Interest Rate Swaps",
+      "FX Forwards",
+      "Emerging Markets Swaps",
+      "Commodity Swaps"
+    ],
+    "specified_entity": "HSBC Holdings plc",
+    "additional_termination_events": [
+      "Ratings Downgrade below BBB (S&P)"
+    ],
+    "effective_date": "2019-01-28",
+    "agreement_type": "ISDA 2002 Master Agreement",
+    "bytes": 14485
+  },
+  {
+    "doc_id": "CP15",
+    "file_name": "CP15_Nomura_ISDA_2002_Master_Agreement.pdf",
+    "counterparty": "Nomura International plc",
+    "counterparty_short": "Nomura",
+    "counterparty_type": "Dealer",
+    "jurisdiction": "England and Wales",
+    "lei": "DGQCSV2PHVF7I2743539",
+    "governing_law": "English",
+    "base_currency": "JPY",
+    "threshold": "JPY 1,500,000,000",
+    "minimum_transfer_amount": "JPY 25,000,000",
+    "independent_amount": "JPY 750,000,000",
+    "cross_default_threshold": "JPY 7,500,000,000",
+    "automatic_early_termination": true,
+    "csa_type": "English Law VM CSA (Transfer - Title Transfer)",
+    "products": [
+      "Interest Rate Swaps",
+      "Cross-Currency Swaps",
+      "Equity Swaps"
+    ],
+    "specified_entity": "Nomura Holdings, Inc.",
+    "additional_termination_events": [
+      "Ratings Downgrade below BBB- (S&P)"
+    ],
+    "effective_date": "2020-06-08",
+    "agreement_type": "ISDA 2002 Master Agreement",
+    "bytes": 14499
+  },
+  {
+    "doc_id": "CP16",
+    "file_name": "CP16_Societe_Generale_ISDA_2002_Master_Agreement.pdf",
+    "counterparty": "Societe Generale S.A.",
+    "counterparty_short": "Societe Generale",
+    "counterparty_type": "Dealer",
+    "jurisdiction": "French Republic",
+    "lei": "O2RNE8IBXP4R0TD8PU41",
+    "governing_law": "English",
+    "base_currency": "EUR",
+    "threshold": "EUR 16,000,000",
+    "minimum_transfer_amount": "EUR 500,000",
+    "independent_amount": "EUR 8,000,000",
+    "cross_default_threshold": "EUR 80,000,000",
+    "automatic_early_termination": true,
+    "csa_type": "English Law VM CSA (Transfer - Title Transfer)",
+    "products": [
+      "Interest Rate Swaps",
+      "Equity Swaps",
+      "Commodity Swaps",
+      "FX Forwards"
+    ],
+    "specified_entity": "any Affiliate",
+    "additional_termination_events": [
+      "Ratings Downgrade below BBB (S&P)",
+      "Bail-in / Resolution Event"
+    ],
+    "effective_date": "2018-09-19",
+    "agreement_type": "ISDA 2002 Master Agreement",
+    "bytes": 14544
+  },
+  {
+    "doc_id": "CP17",
+    "file_name": "CP17_RBC_ISDA_2002_Master_Agreement.pdf",
+    "counterparty": "Royal Bank of Canada",
+    "counterparty_short": "RBC",
+    "counterparty_type": "Dealer",
+    "jurisdiction": "Canada",
+    "lei": "ES7IP3U3RHIGC71XBU11",
+    "governing_law": "New York",
+    "base_currency": "USD",
+    "threshold": "USD 20,000,000",
+    "minimum_transfer_amount": "USD 500,000",
+    "independent_amount": "None",
+    "cross_default_threshold": "USD 100,000,000",
+    "automatic_early_termination": false,
+    "csa_type": "New York Law VM CSA",
+    "products": [
+      "Interest Rate Swaps",
+      "FX Forwards",
+      "Cross-Currency Swaps"
+    ],
+    "specified_entity": "any Affiliate",
+    "additional_termination_events": [
+      "Ratings Downgrade below A- (S&P)"
+    ],
+    "effective_date": "2019-04-25",
+    "agreement_type": "ISDA 2002 Master Agreement",
+    "bytes": 13858
+  },
+  {
+    "doc_id": "CP18",
+    "file_name": "CP18_Northern_Trust_ISDA_2002_Master_Agreement.pdf",
+    "counterparty": "The Northern Trust Company",
+    "counterparty_short": "Northern Trust",
+    "counterparty_type": "Custodian Bank",
+    "jurisdiction": "Illinois, United States",
+    "lei": "6PTKHDJ8HDUF78PFWH30",
+    "governing_law": "New York",
+    "base_currency": "USD",
+    "threshold": "USD 10,000,000",
+    "minimum_transfer_amount": "USD 250,000",
+    "independent_amount": "None",
+    "cross_default_threshold": "USD 50,000,000",
+    "automatic_early_termination": false,
+    "csa_type": "New York Law VM CSA",
+    "products": [
+      "Interest Rate Swaps",
+      "FX Forwards",
+      "Securities Lending"
+    ],
+    "specified_entity": "Northern Trust Corporation",
+    "additional_termination_events": [
+      "Net Asset Value Decline of 25% over any calendar quarter"
+    ],
+    "effective_date": "2020-11-16",
+    "agreement_type": "ISDA 2002 Master Agreement",
+    "bytes": 13959
+  },
+  {
+    "doc_id": "CP19",
+    "file_name": "CP19_BlackRock_ISDA_2002_Master_Agreement.pdf",
+    "counterparty": "BlackRock Financial Management, Inc.",
+    "counterparty_short": "BlackRock",
+    "counterparty_type": "Asset Manager",
+    "jurisdiction": "New York, United States",
+    "lei": "549300LILU3UZWDAHOD8",
+    "governing_law": "New York",
+    "base_currency": "USD",
+    "threshold": "USD 5,000,000",
+    "minimum_transfer_amount": "USD 100,000",
+    "independent_amount": "USD 20,000,000",
+    "cross_default_threshold": "USD 25,000,000",
+    "automatic_early_termination": false,
+    "csa_type": "New York Law VM CSA",
+    "products": [
+      "Interest Rate Swaps",
+      "Credit Default Swaps",
+      "Total Return Swaps",
+      "FX Forwards"
+    ],
+    "specified_entity": "the relevant Fund only (no Affiliate)",
+    "additional_termination_events": [
+      "Net Asset Value Decline of 15% over any calendar month",
+      "Key Person Event",
+      "Investment Manager Termination"
+    ],
+    "effective_date": "2021-02-09",
+    "agreement_type": "ISDA 2002 Master Agreement",
+    "bytes": 14550
+  },
+  {
+    "doc_id": "CP20",
+    "file_name": "CP20_PIMCO_ISDA_2002_Master_Agreement.pdf",
+    "counterparty": "Pacific Investment Management Company LLC",
+    "counterparty_short": "PIMCO",
+    "counterparty_type": "Asset Manager",
+    "jurisdiction": "Delaware, United States",
+    "lei": "549300DBELKF6PC7O737",
+    "governing_law": "New York",
+    "base_currency": "USD",
+    "threshold": "USD 5,000,000",
+    "minimum_transfer_amount": "USD 100,000",
+    "independent_amount": "USD 25,000,000",
+    "cross_default_threshold": "USD 25,000,000",
+    "automatic_early_termination": false,
+    "csa_type": "New York Law VM CSA",
+    "products": [
+      "Interest Rate Swaps",
+      "Credit Default Swaps",
+      "TBA Transactions",
+      "FX Forwards",
+      "Inflation Swaps"
+    ],
+    "specified_entity": "the relevant Account only (no Affiliate)",
+    "additional_termination_events": [
+      "Net Asset Value Decline of 15% over any calendar month",
+      "Investment Manager Termination"
+    ],
+    "effective_date": "2021-05-24",
+    "agreement_type": "ISDA 2002 Master Agreement",
+    "bytes": 14520
+  }
+]
